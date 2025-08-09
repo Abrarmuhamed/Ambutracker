@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #ba0606;
+}
+
+a:hover {
+    color: #750000 !important;
+}
+
+.text-theme {
+    color: #ba0606 !important;
+}
+
+.text-theme-2 {
+    color: #6e6e6e !important;
+}
+
+.bg-theme {
+    background: #ba0606 !important;
+}
+
+.bg-theme-2 {
+    background: #6e6e6e !important;
+}
+
+.btn-theme {
+    background: #ba0606 !important;
+    color: #fff !important;
+    border-color: #ba0606 !important;
+}
+
+.btn-outline-theme {
+    color: #ba0606 !important;
+    border: 1px solid #ba0606 !important;
+}
+
+.btn-outline-theme:hover {
+    color: #fff !important;
+    background-color: #ba0606 !important;
+}
+
+.form-control {
+    background: #f5f5f5;
+    border: none;
+    border-radius: 0;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.form-control::placeholder {
+    font-size: 12px;
+    color: #6d6d6d;
+}
+
+.form-label {
+    color: #464444 !important;
+}
+
+.fs-10 {
+    font-size: 10px !important;
+}
+
+.fs-11 {
+    font-size: 11px !important;
+}
+
+.fs-12 {
+    font-size: 12px !important;
+}
+
+.fs-13 {
+    font-size: 13px !important;
+}
+
+.fs-14 {
+    font-size: 14px !important;
+}
+
+.fs-15 {
+    font-size: 15px !important;
+}
+
+#login {
+    background: #ba0606;
+    color: #fff;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login .content {
+    text-align: center;
+}
+
+.btns button {
+    width: 100%;
+    border-radius: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bw-2 {
+    border-width: 2px !important;
+}
+
+.divider {
+    border-bottom: 1px dashed #ccc;
+    width: 75%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sign-up {
+    background-color: #ba0606;
+    min-height: 100vh;
+}
+
+.sign-content {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 30px;
+}
+
+.border-none {
+    border: none !important;
+}
+
+.br-0 {
+    border-radius: 0px !important;
+}
+
+.otp-input-fields {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.otp-input-fields input {
+    height: 40px;
+    width: 40px;
+    background-color: #eeeeee;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 16px;
+    /* Firefox */
+}
+
+.otp-input-fields input::-webkit-outer-spin-button,
+.otp-input-fields input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.otp-input-fields input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.otp-input-fields input:focus {
+    border: 2px solid #ba0606 !important;
+    font-size: 20px;
+}
+
+.header {
+    background: #fff;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 50px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 0px 8px 0px;
+}
+
+.profile img {
+    border: 2px solid #ba0606;
+    cursor: pointer;
+}
+
+.search-bar {
+    width: 400px;
+}
+
+.search-bar i {
+    position: absolute;
+    top: 20px;
+    left: 476px;
+    color: #696969;
+}
+
+.footer {
+    background: #fff;
+    position: fixed;
+    bottom: 20px;
+    height: 50px;
+    border-radius: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px 2px #0003;
+    padding: 0px 10px 0px 10px;
+}
+
+.footer button {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+}
+
+.footer button:hover {
+    background-color: #ba060630 !important;
+    color: #ba0606 !important;
+}
+
+.h-100vh{
+    min-height: 100vh!important;
+}
+
+.btn-none{
+    background: none;
+    border: none;
+}

@@ -1,0 +1,10 @@
+Options -Indexes
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+RewriteRule ^station-details/([0-9A-ZA-Z-]+)$ station-details-page.php?id=$1 [QSA,NC,L]
+RewriteRule ^direction/([0-9A-ZA-Z-]+)$ direction-page.php?id=$1 [QSA,NC,L]
+RewriteRule ^book-now/([0-9A-ZA-Z-]+)$ book-now-page.php?id=$1 [QSA,NC,L]
